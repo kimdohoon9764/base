@@ -26,7 +26,13 @@
 ![하버드 구조](임베디드설계.jpeg)
 
 
+#### JTAG
+![JTAG](JTAG.png)
 
+### STM32F103x8
+
+#### 메모리 매핑
+![Memory Mapping](memorymapping.png)
 
 #### ARM 용어정리
 - DSP(Digital Signal Processor) : 디지털 신호 처리 가속
