@@ -12,4 +12,3 @@ void blink_ft(int pin){
   digitalWrite(pin,LOW);
   delay(1000);
 }
-

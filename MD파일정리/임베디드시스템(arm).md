@@ -43,3 +43,19 @@
 - AHB Access Port (AHB-AP) : for debugging
 - Bust Matrix : 프로세스 내부의 버스 연결을 위한 장치
 - ITM(Instrumentation Trace Macrocell): for debugging
+
+
+### 저항
+
+흑 : 0
+갈 : 1
+적 : 2
+등(주황) : 3
+황(노랑) : 4
+녹 : 5
+청 : 6
+자 (보라) : 7
+회 : 8
+백 : 9
+
+ 저항값 계산 OO x 10^^🔳 ex) 주주갈 33x10^^1 순서는 금과 은으로 순서파악.
