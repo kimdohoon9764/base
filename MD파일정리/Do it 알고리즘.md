@@ -53,23 +53,5 @@ public class indexHash{
 자바에선 Comparable과 Comparator 인터페이스를 사용하여 다중 조건 정렬을 구현 할 수 있습니다.
 
 ```java
-public class Score implements Comparable<Score>{
-    int english;
-    int math;
 
-    public Score (int english,int math){
-        this.english = english;
-        this.math=math;
-
-    }
-    @Override
-    public String toString(){
-        return "Score{" + "english=" + english+",math="+math+"}";
-    }
-    @Override
-    public int compareTo(Score o){
-        if (this.english==o.english) return o.math-this.math;// 영어 점수를 우선으로 같으면 수학 점수의 차를 내리고
-        return o.english-this.english; // 영어 점수가 같지않으면 영어 점수의 차를 낸다.
-    }
-}
 ```

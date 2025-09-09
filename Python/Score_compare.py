@@ -1,6 +1,6 @@
+
+
 class Comparable:
-    def toString(self):
-        ... 
     def comPareTo(self):
         ...
 class Score(Comparable):
