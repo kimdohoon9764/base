@@ -42,5 +42,9 @@ Do it 알고리즘테스트
 3. 코딩한 것들을 시간복잡도와 이런걸 따져서 조금더 효율적이게 리팩토링을 진행한다.
 
 ### day 9/10 
+1. GRPO-RoC (Group Relative Policy Optim - Resample of Correct) 를 공부
+2. 여기서 든 의문점 Negative를 다운 샘플링 한다고 하였을때 왜 보상이 낮은걸로 다운샘플링은하지않는가? 
+3. 편향이 일어나지 않기위해서 Negative의 특정성만이아닌 general한 Negative를 추려내기위해서 그렇다.
+4. 그럼 Random이란것은 General하다고 볼 수 있는건가?  아니다. 오류 측면에서 general하게 만들기위해 random을 추출하는것뿐 의미가 같진않다.
 
 
