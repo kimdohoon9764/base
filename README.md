@@ -46,5 +46,8 @@ Do it 알고리즘테스트
 2. 여기서 든 의문점 Negative를 다운 샘플링 한다고 하였을때 왜 보상이 낮은걸로 다운샘플링은하지않는가? 
 3. 편향이 일어나지 않기위해서 Negative의 특정성만이아닌 general한 Negative를 추려내기위해서 그렇다.
 4. 그럼 Random이란것은 General하다고 볼 수 있는건가?  아니다. 오류 측면에서 general하게 만들기위해 random을 추출하는것뿐 의미가 같진않다.
-
+5. rstar2에서 다른점. 추론능력에 집중을한것이 아닌 non reasoning으로시작해서 coding utilize tool and formatting에 초점을두고 rollout을 다운샘플링하였다.
+    •	도구 기반 AI (Tool-augmented AI)의 성능은 모델 + 툴의 조합으로 결정됩니다.
+	•	좋은 LLM이 있다 해도, “부실한 Tool”이 있으면 정답을 못 찾습니다.
+	•	따라서 LLM을 훈련하거나 활용할 때는 Tool 또한 함께 설계하고 최적화해야 합니다.
 
